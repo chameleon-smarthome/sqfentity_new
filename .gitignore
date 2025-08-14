@@ -84,3 +84,9 @@ example/lib/model/test.g.dart
 example_ns
 .DS_Store
 sqfentity/example/ios/Flutter/flutter_export_environment.sh
+.dart_tool
+example/ios/Flutter/ephemeral/flutter_lldb_helper.py
+example/ios/Flutter/ephemeral/flutter_lldbinit
+example/.flutter-plugins-dependencies
+sqfentity/.flutter-plugins-dependencies
+sqfentity_gen/example/.flutter-plugins-dependencies
