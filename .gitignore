@@ -90,3 +90,4 @@ example/ios/Flutter/ephemeral/flutter_lldbinit
 example/.flutter-plugins-dependencies
 sqfentity/.flutter-plugins-dependencies
 sqfentity_gen/example/.flutter-plugins-dependencies
+.DS_Store
