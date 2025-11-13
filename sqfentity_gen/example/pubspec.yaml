@@ -24,7 +24,7 @@ dependencies:
   sqfentity_gen: any
   path_provider: any
   pedantic: 1.11.1
-  http: 1.5.0
+  http: 1.6.0
 
 dependency_overrides:
   sqfentity:
@@ -33,7 +33,7 @@ dependency_overrides:
     path: ../../sqfentity_gen
 
 dev_dependencies:
-  build_runner: 2.7.1
+  build_runner: 2.10.2
   build_verify: 3.1.1
   #  build_runner: ^1.6.5
 
