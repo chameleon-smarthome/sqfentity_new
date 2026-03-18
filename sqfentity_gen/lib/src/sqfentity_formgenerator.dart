@@ -2,7 +2,7 @@
 // for details. All rights reserved. Use of this source code is governed by a
 // BSD-style license that can be found in the LICENSE file.
 
-import 'package:analyzer/dart/element/element2.dart';
+import 'package:analyzer/dart/element/element.dart';
 import 'package:build/build.dart';
 import 'package:source_gen/source_gen.dart';
 
@@ -15,7 +15,7 @@ class Imports {
 
 class SqfEntityFormGenerator extends GeneratorForAnnotation<SqfEntityBuilder> {
   @override
-  String? generateForAnnotatedElement(Element2 element, ConstantReader annotation, BuildStep buildStep) {
+  String? generateForAnnotatedElement(Element element, ConstantReader annotation, BuildStep buildStep) {
     final model = annotation.read('model').objectValue;
 
     var instanceName = 'SqfEntityTable';
