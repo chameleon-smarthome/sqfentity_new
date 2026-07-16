@@ -91,3 +91,5 @@ example/.flutter-plugins-dependencies
 sqfentity/.flutter-plugins-dependencies
 sqfentity_gen/example/.flutter-plugins-dependencies
 .DS_Store
+example/ios/Flutter/flutter_export_environment.sh
+example/ios/Flutter/ephemeral/flutter_native_integration.env
