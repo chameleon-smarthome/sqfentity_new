@@ -5,17 +5,17 @@ repository: https://github.com/hhtokpinar/sqfEntity
 version: 2.5.0
 
 environment:
-  sdk: ">=3.4.0 <4.0.0"
-  flutter: ">=3.19.0"
+  sdk: ">=3.12.0 <4.0.0"
+  flutter: ">=3.35.0"
 
 dependencies:
   flutter:
     sdk: flutter
   sqflite_sqlcipher: 3.4.1
-  synchronized: 3.4.1+1
+  synchronized: 3.4.1+2
   path: 1.9.1
   sqfentity_gen:
     path: ../sqfentity_gen # remove the first comment mark if you want to debug sqfentity_gen package on your local file system
   sqflite_common: 2.5.11
-  sqflite_common_ffi: 2.4.2
-  meta: 1.18.0
+  sqflite_common_ffi: 2.4.2+1
+  meta: 1.18.3
